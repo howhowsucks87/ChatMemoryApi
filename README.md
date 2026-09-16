@@ -227,6 +227,9 @@ ChatMemoryApi/
 | GET    | `/api/memories/{id}`                            | Get a specific memory               | ✅    |
 | DELETE | `/api/memories/{id}`                            | Delete a memory                     | ✅    |
 
+![image](https://github.com/howhowsucks87/ChatMemoryApi/blob/main/docs/images/swagger-overview.png)
+![image](https://github.com/howhowsucks87/ChatMemoryApi/blob/main/docs/images/swagger-login.png)
+
 ### Pagination
 
 The Chat and Memory list endpoints support pagination through query parameters.
@@ -240,6 +243,8 @@ GET /api/memories?page=1&pageSize=10
 
 * `page`: Page number
 * `pageSize`: Number of items per page
+
+![image](https://github.com/howhowsucks87/ChatMemoryApi/blob/main/docs/images/pagination.png)
 
 ## API 端點
 
@@ -665,6 +670,7 @@ To test authenticated endpoints:
 ```text
 Bearer <your-token>
 ```
+![image](https://github.com/howhowsucks87/ChatMemoryApi/blob/main/docs/images/swagger-jwt.png)
 
 6. Click `Authorize`.
 7. You can now test protected endpoints that require authentication.
